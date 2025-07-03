@@ -70,6 +70,7 @@ python predict.py --image your_image.jpg
 
 ## 📦 Directory Structure
 ├── train.py                     # Model training script
+
 ├── predict.py                   # Inference on single image
 ├── metrics.py                   # Validate the trained model
 ├── dataset/                     # train/valid/test + annotations
