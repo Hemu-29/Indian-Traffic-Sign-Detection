@@ -62,14 +62,17 @@ cd Indian-Traffic-Sign-Detection
 ```
 
 ## Install dependencies:
+```
 pip install -r requirements.txt
-
+```
 ## Run training:
+```
 python train.py
-
+```
 ## Run inference:
+```
 python predict.py --image your_image.jpg
-
+```
 ## 📦 Directory Structure
 ```
 ├── train.py # Model training script
