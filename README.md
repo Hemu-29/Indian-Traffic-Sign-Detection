@@ -56,8 +56,10 @@ Evaluation was done on the test set (15% split).
 # 🚀 How to Run
 
 ## Clone the repo:
+```
 git clone https://github.com/Hemu-29/Indian-Traffic-Sign-Detection.git
 cd Indian-Traffic-Sign-Detection
+```
 
 ## Install dependencies:
 pip install -r requirements.txt
