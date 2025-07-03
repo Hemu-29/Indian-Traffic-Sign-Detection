@@ -69,8 +69,16 @@ python train.py
 python predict.py --image your_image.jpg
 
 ## 📦 Directory Structure
-<pre> ```text 📦 Directory Structure ├── train.py # Model training script ├── predict.py # Inference on single image ├── metrics.py # Validate the trained model ├── dataset/ # train/valid/test + annotations ├── checkpoints/ # Intermediate saved models ├── Trained_Models/ │ └── final_frcnn_model.pth # Final trained model ├── README.md ``` </pre>
-
+```
+├── train.py # Model training script
+├── predict.py # Inference on single image
+├── metrics.py # Validate the trained model
+├── dataset/ # train/valid/test + annotations
+├── checkpoints/ # Intermediate saved models
+├── Trained_Models/
+│ └── final_frcnn_model.pth # Final trained model
+├── README.md
+```
 ## 📜 License
 This project is licensed under the MIT License.
 The dataset is also MIT-licensed and publicly available on Roboflow & Kaggle.
